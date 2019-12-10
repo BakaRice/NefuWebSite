@@ -8,132 +8,14 @@
   <component name="ChangeListManager">
     <list default="true" id="8f3676ee-c7ce-484a-be15-3f72c4a4dc07" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../Experiment-05/src/main/Webapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d6398c8f-bc26-46e0-b9c7-0e93bf9aadc9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NefuSoftwareWebsite.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/SingleNews.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/addNews.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/news.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/css/news.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/copyright01-2019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/footer-bg-2019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/logo_a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/logo_s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/logo_school.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_00.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_021.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_item_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_item_01_L.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_item_01_S.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_item_02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_item_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_item_04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/title_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/title_main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/title_main_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/resources/static/img/university.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Webapp/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/IndexServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/ListNewsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/ShowNewsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/addNewsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/loginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/entity/Accounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/entity/News.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/NewsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/ServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/NewsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/util/DataSourceUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/classes/META-INF/NefuSoftwareWebsite.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/controller/IndexServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/controller/ListNewsServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/controller/ShowNewsServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/controller/addNewsServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/controller/loginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/entity/Accounts.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/entity/News.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/service/AccountService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/service/NewsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/service/ServiceFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/service/impl/AccountServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/service/impl/NewsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/util/DataSourceUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/jsp/SingleNews.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/jsp/addNews.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/jsp/admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/jsp/news.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/css/news.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/copyright01-2019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/footer-bg-2019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/logo_a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/logo_s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/logo_school.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/pic_00.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/pic_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/pic_02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/pic_021.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/pic_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/pic_04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/pic_05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/pic_item_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/pic_item_01_L.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/pic_item_01_S.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/pic_item_02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/pic_item_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/pic_item_04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/title_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/title_main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/title_main_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/resources/static/img/university.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/NefuSoftwareWebsite-1.0-SNAPSHOT/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/NefuSoftwareWebsite.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/controller/IndexServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/controller/ListNewsServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/controller/ShowNewsServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/controller/addNewsServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/controller/loginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/entity/Accounts.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/entity/News.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/service/AccountService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/service/NewsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/service/ServiceFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/service/impl/AccountServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/service/impl/NewsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/util/DataSourceUtils.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../examfor/src/WebApp/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../homewrok5/.idea/homewrok5.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../homewrok5/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/news.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/news.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/ShowNewsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/ShowNewsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/NewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/impl/NewsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/NewsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../homework4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../homework4/src/WebApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../homework4/src/WebApp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../homewrok5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homewrok5/.idea/workspace.xml" afterDir="false" />
@@ -189,56 +71,107 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="272" column="84" lean-forward="true" selection-start-line="272" selection-start-column="24" selection-end-line="272" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/logo_school.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/SingleNews.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="-1863">
+              <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/News.java">
+        <entry file="file://$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/news.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="150">
+              <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/ShowNewsServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#News#0;class#News#0" />
-                <element signature="method#News#1;class#News#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/css/news.css">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/NewsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="405">
+              <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#addNews#0;class#NewsServiceImpl#0" />
+                <element signature="method#listNewss#0;class#NewsServiceImpl#0" />
+                <element signature="method#getNews#0;class#NewsServiceImpl#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/css/index.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/IndexServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-211">
-              <caret line="214" column="21" lean-forward="true" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="21" />
+            <state relative-caret-position="108">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/ListNewsServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/addNewsServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/AccountServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Verification#0;class#AccountServiceImpl#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/NewsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -246,29 +179,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/addNews.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="1787">
               <caret line="79" selection-start-line="79" selection-end-line="79" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/admin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/title_main_2.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/title_main.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -336,7 +250,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -355,7 +269,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/controller/updateNewsServlet.java" />
         <option value="$PROJECT_DIR$/src/main/Webapp/updateNews.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/entity/News.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/NewsService.java" />
         <option value="$PROJECT_DIR$/src/main/Webapp/addNews.jsp" />
         <option value="$PROJECT_DIR$/src/main/Webapp/admin.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/entity/Accounts.java" />
@@ -365,7 +278,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/service/impl/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/loginServlet.java" />
         <option value="$PROJECT_DIR$/src/main/Webapp/test.html" />
-        <option value="$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/news.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/addNewsServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/indexServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/ListNewsServlet.java" />
@@ -376,12 +288,14 @@
         <option value="$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/addNews.jsp" />
         <option value="$PROJECT_DIR$/src/main/Webapp/index.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d6398c8f-bc26-46e0-b9c7-0e93bf9aadc9/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/impl/NewsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/controller/ShowNewsServlet.java" />
         <option value="$PROJECT_DIR$/src/main/Webapp/resources/css/index.css" />
         <option value="$PROJECT_DIR$/src/main/Webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/SingleNews.jsp" />
         <option value="$PROJECT_DIR$/src/main/Webapp/resources/css/news.css" />
+        <option value="$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/news.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/NewsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/impl/NewsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/ShowNewsServlet.java" />
       </list>
     </option>
   </component>
@@ -430,9 +344,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="821" />
+    <option name="y" value="257" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -491,7 +406,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NefuSoftwareWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NefuSoftwareWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NefuSoftwareWebsite" type="b2602c69:ProjectViewProjectNode" />
@@ -499,32 +424,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="Webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NefuSoftwareWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NefuSoftwareWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NefuSoftwareWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NefuSoftwareWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NefuSoftwareWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NefuSoftwareWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NefuSoftwareWebsite" type="b2602c69:ProjectViewProjectNode" />
@@ -555,6 +454,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/Webapp/resources/static/img" />
@@ -684,16 +584,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20375335" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20643431" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930844" weight="0.40651557" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930844" visible="true" weight="0.23654391" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -785,6 +684,18 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/controller/ShowNewsServlet.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/NewsServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/Webapp/META-INF/context.tld" />
@@ -855,33 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/NewsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/ServiceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://d6398c8f-bc26-46e0-b9c7-0e93bf9aadc9/schema/website/table/news">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="f2b5db8e-d91e-436c-9a7f-a4320075ca9e">
@@ -895,29 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/AccountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/NewsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addNews#0;class#NewsServiceImpl#0" />
-            <element signature="method#listNewss#0;class#NewsServiceImpl#0" />
-            <element signature="method#updateNews#0;class#NewsServiceImpl#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,43 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/IndexServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/news.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/ShowNewsServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/ListNewsServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/Accounts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -985,19 +809,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/addNewsServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_00.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/logo_s.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/logo_a.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_item_04.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_item_03.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_item_01_S.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_item_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/university.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/logo_school.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/News.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="216">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#News#0;class#News#0" />
+            <element signature="method#News#1;class#News#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/css/news.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/title_main_2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/title_main.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="214" column="21" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
+        <state relative-caret-position="-405">
           <caret line="3" selection-start-line="3" selection-end-line="16" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -1033,90 +906,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_00.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/logo_s.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/logo_a.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_item_04.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_item_03.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_item_01_S.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/pic_item_01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/title_main_2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/logo_school.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/title_main.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/static/img/university.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/addNews.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/Webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="191">
+          <caret line="274" column="19" lean-forward="true" selection-start-line="274" selection-start-column="19" selection-end-line="274" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/ServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/admin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="11" />
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="10" selection-end-column="98" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/entity/News.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/addNewsServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="393">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#News#0;class#News#0" />
-            <element signature="method#News#1;class#News#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/addNews.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="272" column="84" lean-forward="true" selection-start-line="272" selection-start-column="24" selection-end-line="272" selection-end-column="84" />
+        <state relative-caret-position="1787">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/SingleNews.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        <state relative-caret-position="-1863">
+          <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/css/news.css">
+    <entry file="file://$PROJECT_DIR$/src/main/Webapp/WEB-INF/jsp/news.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="150">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Webapp/resources/css/index.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/NewsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-211">
-          <caret line="214" column="21" lean-forward="true" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="21" />
+        <state relative-caret-position="432">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Verification#0;class#AccountServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/NewsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addNews#0;class#NewsServiceImpl#0" />
+            <element signature="method#listNewss#0;class#NewsServiceImpl#0" />
+            <element signature="method#getNews#0;class#NewsServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/IndexServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/ListNewsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/ShowNewsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

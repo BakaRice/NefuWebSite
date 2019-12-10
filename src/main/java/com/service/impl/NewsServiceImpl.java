@@ -85,4 +85,17 @@ public class NewsServiceImpl implements NewsService {
             logger.warning(e.getMessage());
         }
     }
+
+    @Override
+    public  void delNews(int id){//DELETE FROM table_name [WHERE Clause]
+        String sql = "DELETE FROM News WHERE id=?";
+        try (Connection conn = DataSourceUtils.getConnection();
+             PreparedStatement st = conn.prepareStatement(sql)) {
+            st.setInt(1, id);
+            st.executeUpdate();
+            logger.info("sql操作进行了删除，删除的新闻id是"+id);
+        } catch (SQLException e) {
+            logger.warning(e.getMessage()+"删除失败");
+        }
+    }
 }

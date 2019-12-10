@@ -28,4 +28,10 @@ public interface NewsService {
      * @return
      */
     public News getNews(int id);
+    /**
+     * 基于ID删除指定新闻
+     * @param id
+     * @return
+     */
+    public void delNews(int id);
 }
