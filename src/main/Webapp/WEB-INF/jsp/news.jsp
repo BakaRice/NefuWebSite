@@ -46,7 +46,7 @@
     <c:forEach items="${news }" var="u" varStatus="v">
     <tr>
         <td>${u.id}</td>
-        <td><a href="/info?id=${u.id}">${u.name}</a></td>
+        <td><a href="/info?flag=find&id=${u.id}">${u.name}</a></td>
         <td>${u.insertTime}</td>
         <td>${u.showTime}</td>
         <td>
@@ -54,8 +54,11 @@
                 <button type="button" class="btn btn-danger">删除</button>
             </a>
 
-            <a href="/info?id=${u.id}">
+            <a href="/info?flag=find&id=${u.id}">
                 <button type="button" class="btn btn-info">查看</button>
+            </a>
+            <a href="/info?flag=update&id=${u.id}">
+            <button type="button" class="btn btn-info">修改</button>
             </a>
         </td>
         </c:forEach>

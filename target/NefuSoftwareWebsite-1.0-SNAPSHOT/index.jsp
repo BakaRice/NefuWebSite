@@ -258,7 +258,7 @@
                 <span class="Content_main_item_time"><!--格式化显示日期-->
                         <fmt:formatDate value="${u.showTime}" pattern="yyyy-MM-dd"/></span>
                 <span class="content_main_item_name">
-                    <a href="/info?id=${u.id}">${u.name}</a>
+                    <a href="/info?flag=find&id=${u.id}">${u.name}</a>
                 </span>
             </li>
             </c:forEach>
@@ -272,7 +272,7 @@
                 <span class="Content_main_item_time"><!--格式化显示日期-->
                         <fmt:formatDate value="${u.showTime}" pattern="yyyy-MM-dd"/></span>
                     <span class="content_main_item_name">
-                    <a href="/info?id=${u.id}">${u.name}</a>
+                    <a href="/info?flag=find&id=${u.id}">${u.name}</a>
                 </span>
                 </li>
             </c:forEach>

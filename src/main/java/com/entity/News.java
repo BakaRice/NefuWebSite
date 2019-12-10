@@ -26,7 +26,16 @@ public class News {
         this.editor = editor;
         this.content = content;
     }
-//没有id属性
+//无插入时间 有id
+    public News(int id, String name, Timestamp showTime, String editor, String content) {
+        this.id = id;
+        this.name = name;
+        this.showTime = showTime;
+        this.editor = editor;
+        this.content = content;
+    }
+
+    //没有id属性
     public News(String name, Timestamp insertTime, Timestamp showTime, String editor, String content) {
         this.name = name;
         this.insertTime = insertTime;

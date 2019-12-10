@@ -34,19 +34,25 @@
     <div class="progress">
         <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
-
+    <div class="input-group mb-3" style="display: none">
+        <div class="input-group-prepend">
+            <span class="input-group-text">文章ID</span>
+        </div>
+        <input name="id" type="text" class="form-control" value="${news.id}" placeholder="请输入文章标题"
+               aria-describedby="basic-addon1">
+    </div>
     <div class="input-group mb-3">
         <div class="input-group-prepend">
             <span class="input-group-text">文章标题</span>
         </div>
-        <input name="name" required type="text" class="form-control" placeholder="请输入文章标题"
+        <input name="name" required type="text" class="form-control" value="${news.name}" placeholder="请输入文章标题"
                aria-describedby="basic-addon1">
     </div>
     <div class="input-group mb-3">
         <div class="input-group-prepend">
             <span class="input-group-text">文章作者</span>
         </div>
-        <input name="editor" required type="text" class="form-control" placeholder="请输入作者"
+        <input name="editor" required type="text" class="form-control"  value="${news.editor}" placeholder="请输入作者"
                aria-describedby="basic-addon1">
     </div>
     <div class="input-group mb-3">
@@ -58,7 +64,7 @@
     </div>
     <div class="form-group">
         <label for="exampleFormControlTextarea1">文章内容</label>
-        <textarea id="content" name="content" required class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+        <input id="content" name="content" required class="form-control"  value="${news.content}"id="exampleFormControlTextarea1" rows="10"></input>
     </div>
     <div class="input-group mb-3"></div>
     <input type="submit" value="Submit" class="btn btn-primary btn-lg">
