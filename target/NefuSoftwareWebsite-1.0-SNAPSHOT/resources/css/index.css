@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    padding-bottom: 56.25%;
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    z-index: 1;
+}
+
+#pictureShow {
+    position: absolute;
+    width: 100%;
+}
+
+.mainTile img {
+    width: 100%;
+    position: absolute;
+}
+
+#main .mainTitle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.mainTitle .mainTitleOuter {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.mainTileInner {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.mainTitle h1 {
+    margin: 0 auto;
+    padding-top: 31.923%;
+    width: 69.230%;
+    height: 0;
+    overflow: auto;
+    background: url(../static/img/title_main_2.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+
+.title_nav {
+    position: relative;
+    z-index: 1;
+}
+
+.nav_up {
+    background-color: rgb(0, 120, 90);
+    width: 100%;
+    white-space: nowrap;
+}
+
+.nav_up img {
+    /* height: 60px; */
+    margin: 25px 20px;
+}
+
+#differentrow {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.nav_up_inner_right p {
+    font-size: 20px;
+}
+
+#nav_up_item {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_up_inner_logo {
+    height: 80%;
+}
+
+.nav_up_inner_right p {
+    margin: 10px 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.nav_up #motto {
+    margin: 30px;
+    width: 30%;
+}
+
+
+.pic_item {
+    padding: 0;
+    width: 84.3%;
+}
+
+.pic_item a {
+    text-decoration: none
+}
+
+.pic_item img {
+    width: 100%;
+}
+
+.pic_item_left, .pic_item_right {
+    margin: 0px;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.pic_item_left:hover, .pic_item_right:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 25);
+    transform: translate(25px, 5px);
+    transition: 0.5s;
+    position: relative;
+    z-index: 1;
+}
+
+
+#picleft01 {
+    background-image: url(../static/img/pic_item_01.jpg);
+    background-size: auto 100%;
+    width: 100%;
+}
+
+#picleft02 {
+    background-image: url(../static/img/pic_item_02.jpg);
+    background-size: auto 100%;
+    width: 100%;
+}
+
+#picright01 {
+    background-image: url(../static/img/pic_item_03.jpg);
+    background-size: auto 100%;
+    width: 100%;
+}
+
+#picright02 {
+    background-image: url(../static/img/pic_item_04.jpg);
+    background-size: auto 100%;
+    width: 100%;
+}
+
+.picleft_word {
+    font-size: 1.5em;
+    text-align: right;
+    padding: 80px 0;
+    margin: 0 40px;
+    color: white;
+}
+
+.picright_word {
+    font-size: 1.5em;
+    text-align: left;
+    padding: 80px 0;
+    margin: 0 40px;
+    color: white;
+}
+
+
+.nav_side {
+    background-color: rgb(239, 239, 239);
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 15.85%;
+    height: 100%;
+    z-index: 0;
+}
+
+.nav_side_logo {
+    padding: 10px;
+    background-color: rgb(0, 120, 90);
+    display: none;
+}
+
+.nav_side_logo img {
+    width: 100%;
+}
+
+.content_side {
+    font-size: 20px;
+    list-style: none;
+}
+
+.content_side li div {
+    padding: 5px 25px 5px 25px;
+}
+
+.content_side a {
+    text-decoration: none;
+}
+
+.content_side li:hover .content_side_span {
+    color: white;
+    transition: 0.5s;
+}
+
+.content_side p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content_side li:hover {
+    color: white;
+    transition: 0.3s;
+    background-color: rgb(0, 120, 90);
+}
+
+.second_content_side li :hover .second_content_side_span {
+    color: white;
+    transition: 0.3s;
+}
+
+.content_side li:hover .second_content_side { /*二级菜单*/
+    display: table;
+    background-color: rgb(239, 239, 239);
+    list-style: none;
+}
+
+
+.content_side li:hover strong {
+    color: white;
+    transition: 0.3s;
+}
+
+/*.content_side li div p span {*/
+.content_side_span {
+    padding-top: 6px;
+    color: rgb(0, 120, 90);
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-weight: bold;
+    display: block;
+}
+
+.second_content_side_span {
+    padding-top: 6px;
+    color: rgb(0, 120, 90);
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-weight: bold;
+    display: block;
+}
+
+.second_content_side {
+    padding: 0px !IMPORTANT;
+    position: absolute;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+    list-style: none;
+    border-right: black 1px;
+}
+
+.second_content_side ul {
+    list-style: none;
+    padding: 0;
+}
+
+.second_content_side li {
+    padding: 0;
+}
+
+.utility {
+    text-align: center;
+    display: flex;
+    list-style: none;
+}
+
+.utility li {
+    width: 33%;
+    padding: 12px 12px;
+}
+
+.utility li:hover {
+    background-color: rgb(0, 120, 90);
+    transition: 0.3s;
+
+}
+
+.utility li:hover i {
+    color: white;
+    transition: 0.3s;
+}
+
+.utility li:hover span {
+    color: white;
+    transition: 0.3s;
+}
+
+.utility i {
+    font-size: 2rem;
+    color: black;
+}
+
+.utility span {
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.map {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.search {
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-right: 1px solid rgb(221, 221, 221);
+}
+
+.question {
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-left: 1px solid rgb(221, 221, 221);
+}
+
+.nav_side strong {
+    font-weight: bolder;
+    color: black !IMPORTANT;
+}
+
+
+/*新闻列表内容*/
+.Content_main_Out {
+    display: flex;
+    margin-right: 16%;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.Content_main_in {
+    width: 35%;
+    margin: 0 4%;
+}
+
+.Content_main_in ul {
+    list-style: none;
+}
+.Content_main_in li{
+    padding: 12px 0;
+    border-bottom: solid 1px #ddd;
+}
+.Content_main_caption {
+    text-align: center;
+    font-size: 34px;
+    line-height: 54px;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-weight: 300;
+    border-bottom: solid 4px #fff;
+}
+
+.Content_main_item_time {
+    margin-bottom: 0.2em;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #999;
+    white-space: nowrap;
+}
+
+.content_main_item_name {
+    display: block;
+}
+.content_main_item_name a{
+    text-decoration: none;
+    color: black;
+}
+.content_main_item_name a:hover{
+    text-decoration: none;
+    color: darkgray;
+}
+
+@media (max-width: 1100px) {
+    .pic_item {
+        display: none;
+    }
+
+    .nav_side {
+        display: none;
+    }
+}

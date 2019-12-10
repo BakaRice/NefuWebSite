@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+
+</head>
+<body>
+<H1 id="1">跳转测试页面</H1>
+<td><input name="showtime" id="show_time" type="datetime-local" required></td>
+
+</body>
+<script>
+    let date = new Date();
+    let times = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + "T" + date.toLocaleTimeString('chinese', {hour12: false});
+    times = times.slice(0, 16).toString();
+    document.getElementById("show_time").value = times;
+
+</script>
+</html>

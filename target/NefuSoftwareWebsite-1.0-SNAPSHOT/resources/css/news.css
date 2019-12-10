@@ -1,0 +1,27 @@
+.single_news_top img{
+    width: 85%;
+    height: 30%;
+    /* overflow: hidden; */
+    object-fit: cover;
+}
+
+.single_news_content_out{
+    display: flex;
+    margin-right: 16%;
+    justify-content: center;
+    margin-top: 5%;
+}
+.single_news_content_in{
+    width: 65%;
+    margin: 0 4%;
+}
+.single_news_content_in_name{
+    text-align: left;
+    font-size: 26px;
+    line-height: 1.57692;
+}
+.single_news_content_in_date{
+    font-size: 17px;
+    padding: 10px;
+    line-height: 1.8;
+}
