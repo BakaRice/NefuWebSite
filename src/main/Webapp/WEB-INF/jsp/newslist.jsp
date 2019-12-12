@@ -1,21 +1,20 @@
 <%--
   Created by IntelliJ IDEA.
   User: Rice
-  Date: 2019/12/10
-  Time: 13:20
+  Date: 2019/12/12
+  Time: 16:15
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!--记住要引入c标签！！！！！！！！！！！！-->
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<html>
+<html lang="zh-CN">
 <head>
-    <title>${news.name}</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nefu Software</title>
+    <title>通知公告 东北林业大学软件工程</title>
     <!--Bootstraponline-->
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
@@ -29,29 +28,47 @@
 
 </head>
 <body>
-
 <div class="single_news_top">
     <img src="/resources/static/img/university.jpg">
     <div class="single_news_top_name">
         <h1>通知公告</h1>
     </div>
 </div>
-<div class="single_news_content_out">
-    <div class="single_news_content_in">
-        <div class="single_news_content_in_name">
-            ${news.name}
-        </div>
-        <div class="single_news_content_in_date">
-            <fmt:formatDate value="${news.showTime}" pattern="yyyy-MM-dd"/>
-        </div>
-        ${news.content}
-    </div>
-</div>
 
+<div class="Content_main_Out">
+    <div style="width: 100%" class="Content_main_in">
+<%--        <h3 class="Content_main_caption">News</h3>--%>
+        <ul>
+            <c:forEach items="${news }" var="u" varStatus="v">
+                <li>
+                <span class="Content_main_item_time"><!--格式化显示日期-->
+                        <fmt:formatDate value="${u.showTime}" pattern="yyyy-MM-dd"/></span>
+                    <span class="content_main_item_name">
+                    <a href="/info?flag=find&id=${u.id}">${u.name}</a>
+                </span>
+                </li>
+            </c:forEach>
+        </ul>
+    </div>
+<%--    <div class="Content_main_in">--%>
+<%--        <h3 class="Content_main_caption">Events</h3>--%>
+<%--        <ul>--%>
+<%--            <c:forEach items="${news }" var="u" varStatus="v" begin="6" end="11">--%>
+<%--                <li>--%>
+<%--                <span class="Content_main_item_time"><!--格式化显示日期-->--%>
+<%--                        <fmt:formatDate value="${u.showTime}" pattern="yyyy-MM-dd"/></span>--%>
+<%--                    <span class="content_main_item_name">--%>
+<%--                    <a href="/info?flag=find&id=${u.id}">${u.name}</a>--%>
+<%--                </span>--%>
+<%--                </li>--%>
+<%--            </c:forEach>--%>
+<%--        </ul>--%>
+<%--    </div>--%>
+</div>
 
 <!--侧边栏-->
 <div class="nav_side">
-    <div class="nav_side_logo">
+    <div style="display: flex" class="nav_side_logo">
         <img src="resources/static/img/logo_school.png">
     </div>
     <ul class="utility">
@@ -222,11 +239,10 @@
         </li>
     </ul>
 </div>
-
 <footer>
 
     <div>
-        <img class="footer_img" src="resources/static/img/footer-bg-2019.png" height="357" width="1920"/>
+        <img class="footer_img" src="../../resources/static/img/footer-bg-2019.png" height="357" width="1920"/>
         <div class="footer_rights">
             <p>Copyright © Nefu.Software Tan All rights reserved.</p>
         </div>

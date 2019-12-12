@@ -1,0 +1,50 @@
+.teacher_list {
+    padding-top: 35px;
+}
+
+.teacher_list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.teacher_list a{
+    display: flex;
+    margin-bottom: 48px;
+    text-decoration: none;
+    color: black;
+ }
+
+.teacher_list a:hover{
+    display: flex;
+    margin-bottom: 48px;
+    text-decoration: none;
+    color: gray();
+}
+.teacher_body {
+
+}
+
+.teacher_img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+
+}
+.teacher_img img{
+    max-width: 100%;/*让图片自动拉伸缩放*/
+}
+
+.teacher_label {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 80px;
+    width: auto;
+    border: 1px solid #666;
+    color: #666;
+    /* font-size: 1.4rem; */
+    padding: 0 4px;
+}

@@ -33,6 +33,12 @@
 <h1>新闻管理列表 <span class="badge badge-secondary">News</span></h1>
 <p> 如果没有特意设置显示时间 数据库内将没有显示时间，会默认将插入时间复制给显示时间</p>
 <p> 记得 防止脚本注入 以及 req.setCharacterEncoding("UTF-8");</p>
+
+<%--添加的隐藏的form表单--%>
+<form action="" method="post">
+    <input type="hidden" name="flag" value="">
+    <input type="hidden" name="id" value="">
+</form>
 <table>
     <tr>
         <td>#id</td>
@@ -41,7 +47,6 @@
         <td>#显示时间</td>
         <td>#操作</td>
     </tr>
-
     <tbody>
     <c:forEach items="${news }" var="u" varStatus="v">
     <tr>
@@ -50,16 +55,18 @@
         <td>${u.insertTime}</td>
         <td>${u.showTime}</td>
         <td>
-            <a href="/info?flag=delete&id=${u.id}">
-                <button type="button" class="btn btn-danger">删除</button>
-            </a>
-
-            <a href="/info?flag=find&id=${u.id}">
-                <button type="button" class="btn btn-info">查看</button>
-            </a>
-            <a href="/info?flag=update&id=${u.id}">
-            <button type="button" class="btn btn-info">修改</button>
-            </a>
+            <form action="/info" method="post">
+                <input type="hidden" name="id" value="${u.id}">
+<%--                <a href="/info?flag=delete&id=${u.id}">--%>
+                    <button name="flag" value="delete" type="submit" class="btn btn-danger">删除</button>
+<%--                </a>--%>
+<%--                <a href="/info?flag=find&id=${u.id}">--%>
+                    <button name="flag" value="find" type="submit" class="btn btn-info">查看</button>
+<%--                </a>--%>
+<%--                <a href="/info?flag=update&id=${u.id}">--%>
+                    <button name="flag" type="submit" value="update" class="btn btn-info">修改</button>
+<%--                </a>--%>
+            </form>
         </td>
         </c:forEach>
     </tbody>

@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <html lang="zh-CN">
 <head>
@@ -121,6 +121,37 @@
     </div>
 </div>
 
+<div class="Content_main_Out">
+    <div class="Content_main_in">
+        <h3 class="Content_main_caption">News</h3>
+        <ul>
+            <c:forEach items="${news }" var="u" varStatus="v" begin="1" end="6">
+                <li>
+                <span class="Content_main_item_time"><!--格式化显示日期-->
+                        <fmt:formatDate value="${u.showTime}" pattern="yyyy-MM-dd"/></span>
+                    <span class="content_main_item_name">
+                    <a href="/info?flag=find&id=${u.id}">${u.name}</a>
+                </span>
+                </li>
+            </c:forEach>
+        </ul>
+    </div>
+    <div class="Content_main_in">
+        <h3 class="Content_main_caption">Events</h3>
+        <ul>
+            <c:forEach items="${news }" var="u" varStatus="v" begin="6" end="11">
+                <li>
+                <span class="Content_main_item_time"><!--格式化显示日期-->
+                        <fmt:formatDate value="${u.showTime}" pattern="yyyy-MM-dd"/></span>
+                    <span class="content_main_item_name">
+                    <a href="/info?flag=find&id=${u.id}">${u.name}</a>
+                </span>
+                </li>
+            </c:forEach>
+        </ul>
+    </div>
+</div>
+
 <!--侧边栏-->
 <div class="nav_side">
     <div class="nav_side_logo">
@@ -138,7 +169,7 @@
             </a>
         </li>
         <li class="map">
-            <a href="test.html">
+            <a href="http://map.nefu.edu.cn/">
                 <div>
                     <div>
                         <i class="material-icons">map</i>
@@ -148,7 +179,7 @@
             </a>
         </li>
         <li class="question">
-            <a href="test.html">
+            <a href="http://tel.nefu.edu.cn/">
                 <div>
                     <div>
                         <i class="material-icons">question_answer</i>
@@ -174,17 +205,73 @@
                     <p><span class="content_side_span">Introduce</span></p>
                 </div>
             </a>
-        </li>
+            <div class="second_content_side">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <strong>专业简介</strong>
+                                <p><span class="second_content_side_span">laboratory</span></p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <strong>方向介绍</strong>
+                                <p><span class="second_content_side_span">laboratory</span></p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li><!--专业介绍-->
         <li>
-            <a href="test.html">
+            <a href="teacher/instructor.html">
+                <div>
+                    <strong>教师队伍</strong>
+                    <p><span class="content_side_span">Demigods</span></p>
+                </div>
+                <div class="second_content_side">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>教授</strong>
+                                    <p><span class="second_content_side_span">professor</span></p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>副教授</strong>
+                                    <p><span class="second_content_side_span">Associate professor</span></p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>讲师</strong>
+                                    <p><span class="second_content_side_span">Instructor</span></p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </a>
+        </li><!--教师队伍-->
+        <li>
+            <a href="/listnew">
                 <div>
                     <strong>新闻</strong>
                     <p><span class="content_side_span">News</span></p>
                 </div>
             </a>
-        </li>
+        </li><!--新闻-->
         <li>
-            <a href="test.html">
+            <a href="/listnew">
                 <div>
                     <strong>实验室</strong>
                     <p><span class="content_side_span">laboratory</span></p>
@@ -227,16 +314,7 @@
                 </ul>
             </div>
 
-        </li>
-        <li>
-            <a href="test.html">
-                <div>
-                    <strong>教师队伍</strong>
-                    <p><span class="content_side_span">Demigods</span></p>
-                </div>
-
-            </a>
-        </li>
+        </li><!--实验室-->
         <li>
             <a href="test.html">
                 <div>
@@ -247,43 +325,14 @@
         </li>
     </ul>
 </div>
-
-
-<div class="Content_main_Out">
-    <div class="Content_main_in">
-        <h3 class="Content_main_caption">News</h3>
-        <ul>
-            <c:forEach items="${news }" var="u" varStatus="v" begin="1" end="6">
-            <li>
-                <span class="Content_main_item_time"><!--格式化显示日期-->
-                        <fmt:formatDate value="${u.showTime}" pattern="yyyy-MM-dd"/></span>
-                <span class="content_main_item_name">
-                    <a href="/info?flag=find&id=${u.id}">${u.name}</a>
-                </span>
-            </li>
-            </c:forEach>
-        </ul>
-    </div>
-    <div class="Content_main_in">
-        <h3 class="Content_main_caption">Events</h3>
-        <ul>
-            <c:forEach items="${news }" var="u" varStatus="v" begin="6" end="11">
-                <li>
-                <span class="Content_main_item_time"><!--格式化显示日期-->
-                        <fmt:formatDate value="${u.showTime}" pattern="yyyy-MM-dd"/></span>
-                    <span class="content_main_item_name">
-                    <a href="/info?flag=find&id=${u.id}">${u.name}</a>
-                </span>
-                </li>
-            </c:forEach>
-        </ul>
-    </div>
-</div>
-
-<a href="listnew">通知公告</a>
 <footer>
-    <div id="copyright">
-        <p>Copyright © Nefu.Software Tan All rights reserved.</p>
+
+    <div>
+        <img class="footer_img" src="resources/static/img/footer-bg-2019.png" height="357" width="1920"/>
+        <div class="footer_rights">
+            <p>Copyright © Nefu.Software Tan All rights reserved.</p>
+        </div>
+
     </div>
 </footer>
 </body>
