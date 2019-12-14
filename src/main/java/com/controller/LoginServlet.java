@@ -14,6 +14,7 @@ import java.io.IOException;
 @WebServlet("/admin")
 public class LoginServlet extends HttpServlet {
     private AccountService accountService = ServiceFactory.getAccoutService();
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.getRequestDispatcher("/WEB-INF/jsp/admin.html")
@@ -24,10 +25,12 @@ public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String userName = req.getParameter("username");
         String pwd = req.getParameter("pwd");
-        if(accountService.Verification(new Accounts(userName, pwd)))
-        req.getRequestDispatcher("/WEB-INF/jsp/addNews.jsp")
-                .forward(req, resp);
-        else{
+        if (accountService.Verification(new Accounts(userName, pwd))) {
+            Accounts account = new Accounts(userName, pwd);
+            req.getSession().setAttribute("account",account);
+            req.getRequestDispatcher("/WEB-INF/jsp/addNews.jsp")
+                    .forward(req, resp);
+        } else {
             req.getRequestDispatcher("/WEB-INF/jsp/admin.html")
                     .forward(req, resp);
         }
