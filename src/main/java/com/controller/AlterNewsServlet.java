@@ -44,16 +44,4 @@ public class AlterNewsServlet extends HttpServlet {
 
     }
 
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        if (req.getParameter("flag").equals("find")) {
-            String newsId = req.getParameter("id");
-            logger.info("爷尽力的把新闻转向了这个页面，并且这个页面id是" + newsId);
-            News news = newsService.getNews(Integer.parseInt(newsId));//stirng 转 int
-            logger.info(news.getName());
-            req.setAttribute("news", news);
-            req.getRequestDispatcher("/WEB-INF/jsp/SingleNews.jsp")
-                    .forward(req, resp);
-        }
-    }
 }
