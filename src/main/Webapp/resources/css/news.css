@@ -36,3 +36,28 @@
     padding: 10px;
     line-height: 1.8;
 }
+
+.detail_content {
+    padding-top: 20px;
+}
+
+.detail_content_img {
+    float: right;
+    width: 160px;
+    margin: 0 0 20px 40px;
+    text-align: center;
+}
+
+.detail_content_img img {
+    max-width: 160px;
+    margin-bottom: 8px;
+}
+
+.detail_content_img_name {
+
+}
+
+.detail_content_word {
+    margin: 0 0 1em;
+    line-height: 1.8;
+}

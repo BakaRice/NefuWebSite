@@ -28,7 +28,7 @@ public class LoginServlet extends HttpServlet {
         if (accountService.Verification(new Accounts(userName, pwd))) {
             Accounts account = new Accounts(userName, pwd);
             req.getSession().setAttribute("account",account);
-            req.getRequestDispatcher("/WEB-INF/jsp/addNews.jsp")
+            req.getRequestDispatcher("/listnew")
                     .forward(req, resp);
         } else {
             req.getRequestDispatcher("/WEB-INF/jsp/admin.html")

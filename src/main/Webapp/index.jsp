@@ -33,7 +33,7 @@
             <div id="pictureShow" class="carousel slide" data-ride="carousel">
                 <!-- 轮播图片 -->
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item active" data-interval="5">
                         <img style="width: 100%" src="resources/static/img/pic_021.jpg">
                     </div>
                     <div class="carousel-item">
@@ -86,7 +86,7 @@
     <div class="item">
         <div class="pic_item">
             <div id="picleft01" class="pic_item_left">
-                <a href="test.html">
+                <a href="/lab.html">
                     <div class="picleft_word">
                         <p>软件工程专业综合实验室，服务于专业的课程实验和创新创业项目，</br>培养学生获得软件项目管理和开发经验，完成系统开发的实习、实训。</p>
                         <p style="color: rgb(0,120,90)">了解更多</p>
@@ -94,7 +94,7 @@
                 </a>
             </div>
             <div id="picright01" class="pic_item_right">
-                <a href="test.html">
+                <a href="/introduce.html">
                     <div class="picright_word">
                         <p>实施灵活的“2+1+1”的培养模式，以一流的软件企业作为依托，</br>进行专业化人才素质培养</p>
                         <p style="color: rgb(0,120,90)">了解更多</p>
@@ -102,7 +102,7 @@
                 </a>
             </div>
             <div id="picleft02" class="pic_item_left">
-                <a href="test.html">
+                <a href="/introduce.html">
                     <div class="picleft_word">
                         <p>着力推动基于问题、基于项目和基于案例的学习，</br>对于实践性强的课程，采取校企联合“双师制”培养</p>
                         <p style="color: rgb(0,120,90)">了解更多</p>
@@ -110,7 +110,7 @@
                 </a>
             </div>
             <div id="picright02" class="pic_item_right">
-                <a href="test.html">
+                <a href="/introduce.html">
                     <div class="picright_word">
                         <p>软件工程专业综合实验室，服务于专业的课程实验和创新创业项目，</br>培养学生获得软件项目管理和开发经验，完成系统开发的实习、实训。</p>
                         <p style="color: rgb(0,120,90)">了解更多</p>
@@ -125,12 +125,12 @@
     <div class="Content_main_in">
         <h3 class="Content_main_caption">News</h3>
         <ul>
-            <c:forEach items="${news }" var="u" varStatus="v" begin="1" end="6">
+            <c:forEach items="${news }" var="u" varStatus="v" begin="0" end="5">
                 <li>
                 <span class="Content_main_item_time"><!--格式化显示日期-->
                         <fmt:formatDate value="${u.showTime}" pattern="yyyy-MM-dd"/></span>
                     <span class="content_main_item_name">
-                    <a href="/info?flag=find&id=${u.id}">${u.name}</a>
+                    <a href="/news?flag=find&id=${u.id}">${u.name}</a>
                 </span>
                 </li>
             </c:forEach>
@@ -144,7 +144,7 @@
                 <span class="Content_main_item_time"><!--格式化显示日期-->
                         <fmt:formatDate value="${u.showTime}" pattern="yyyy-MM-dd"/></span>
                     <span class="content_main_item_name">
-                    <a href="/info?flag=find&id=${u.id}">${u.name}</a>
+                    <a href="/news?flag=find&id=${u.id}">${u.name}</a>
                 </span>
                 </li>
             </c:forEach>
@@ -159,7 +159,7 @@
     </div>
     <ul class="utility">
         <li class="search">
-            <a href="test.html">
+            <a href="/search">
                 <div>
                     <div>
                         <i class="material-icons">search</i>
@@ -191,7 +191,7 @@
     </ul>
     <ul class="content_side">
         <li>
-            <a href="test.html">
+            <a href="introduce.html">
                 <div>
                     <strong>关于软件工程</strong>
                     <p><span class="content_side_span">About NEFU SE</span></p>
@@ -271,7 +271,7 @@
             </a>
         </li><!--新闻-->
         <li>
-            <a href="/listnew">
+            <a href="/lab.html">
                 <div>
                     <strong>实验室</strong>
                     <p><span class="content_side_span">laboratory</span></p>

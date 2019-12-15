@@ -13,7 +13,7 @@ import java.util.List;
 
 @WebFilter("/*")
 public class LoginFilter extends HttpFilter {
-    private List<String> excludes = List.of("/info","/addNews");
+    private List<String> excludes = List.of("/info","/addNews","/add");
     @Override
     protected void doFilter(HttpServletRequest req, HttpServletResponse res, FilterChain chain) throws IOException, ServletException {
         for (String e : excludes) {

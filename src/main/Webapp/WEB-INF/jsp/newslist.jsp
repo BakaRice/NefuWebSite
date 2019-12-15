@@ -37,33 +37,18 @@
 
 <div class="Content_main_Out">
     <div style="width: 100%" class="Content_main_in">
-<%--        <h3 class="Content_main_caption">News</h3>--%>
         <ul>
             <c:forEach items="${news }" var="u" varStatus="v">
                 <li>
                 <span class="Content_main_item_time"><!--格式化显示日期-->
                         <fmt:formatDate value="${u.showTime}" pattern="yyyy-MM-dd"/></span>
                     <span class="content_main_item_name">
-                    <a href="/info?flag=find&id=${u.id}">${u.name}</a>
+                    <a href="/news?flag=find&id=${u.id}">${u.name}</a>
                 </span>
                 </li>
             </c:forEach>
         </ul>
     </div>
-<%--    <div class="Content_main_in">--%>
-<%--        <h3 class="Content_main_caption">Events</h3>--%>
-<%--        <ul>--%>
-<%--            <c:forEach items="${news }" var="u" varStatus="v" begin="6" end="11">--%>
-<%--                <li>--%>
-<%--                <span class="Content_main_item_time"><!--格式化显示日期-->--%>
-<%--                        <fmt:formatDate value="${u.showTime}" pattern="yyyy-MM-dd"/></span>--%>
-<%--                    <span class="content_main_item_name">--%>
-<%--                    <a href="/info?flag=find&id=${u.id}">${u.name}</a>--%>
-<%--                </span>--%>
-<%--                </li>--%>
-<%--            </c:forEach>--%>
-<%--        </ul>--%>
-<%--    </div>--%>
 </div>
 
 <!--侧边栏-->
@@ -73,7 +58,7 @@
     </div>
     <ul class="utility">
         <li class="search">
-            <a href="test.html">
+            <a href="/search">
                 <div>
                     <div>
                         <i class="material-icons">search</i>

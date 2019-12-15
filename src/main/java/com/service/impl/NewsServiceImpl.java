@@ -88,7 +88,7 @@ public class NewsServiceImpl implements NewsService {
 
             st.executeUpdate();
         } catch (SQLException e) {
-            logger.warning(e.getMessage()+"修改数据失败");
+            logger.warning(e.getMessage() + "修改数据失败");
         }
     }
 
@@ -103,5 +103,26 @@ public class NewsServiceImpl implements NewsService {
         } catch (SQLException e) {
             logger.warning(e.getMessage() + "删除失败");
         }
+    }
+
+    @Override
+    public List<News> findNews(String name) {
+        List<News> Newss = new ArrayList<>();
+        String sql = "select * from website.news where name like ?";
+        logger.info("准备执行该语句");
+        try (Connection conn = DataSourceUtils.getConnection();
+             PreparedStatement st = conn.prepareStatement(sql);
+        ) {
+            st.setString(1, "%"+name+"%");
+            ResultSet rs = st.executeQuery();
+            while (rs.next()) {
+                News news = new News(rs.getInt(1), rs.getString(2), rs.getTimestamp(3), rs.getTimestamp(4), rs.getString(5), rs.getString(6));
+                Newss.add(news);
+
+            }
+        } catch (SQLException e) {
+            logger.warning(e.getMessage());
+        }
+        return Newss;
     }
 }

@@ -51,12 +51,12 @@
 
 <!--侧边栏-->
 <div class="nav_side">
-    <div class="nav_side_logo">
+    <div  style="display: flex" class="nav_side_logo">
         <img src="resources/static/img/logo_school.png">
     </div>
     <ul class="utility">
         <li class="search">
-            <a href="test.html">
+            <a href="/search">
                 <div>
                     <div>
                         <i class="material-icons">search</i>

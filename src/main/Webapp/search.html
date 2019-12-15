@@ -31,7 +31,10 @@
             background-color: rgba(0, 0, 0, 0);
             text-align: center;
         }
-
+        .search_icon button{
+            background-color: rgba(0,0,0,0);
+            border: 0px;
+        }
         .search_icon {
             padding-right: 20px;
         }
@@ -58,13 +61,14 @@
 <div class="Content_main_Out">
     <div style="width: 100%" class="Content_main_in">
         <h3 class="Content_main_caption">
-            <div class="search_input">
-                <input value="??">
-                <div class="search_icon">
-                    <i id="search" class="material-icons">search</i>
-                </div>
 
-            </div>
+            <form class="search_input" action="/search" method="get">
+                <input name="name" value="??">
+                <div class="search_icon">
+                    <button type="submit"><i id="search" class="material-icons">search</i></button>
+                </div>
+            </form>
+
         </h3>
         <ul>
             <!--            <c:forEach items="${news }" var="u" varStatus="v">-->
@@ -83,11 +87,15 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
-        $("#search").mouseenter(function () {
-            $("#search").text("do_not_disturb_on");
-        });
+        $("#search").click(function () {
+            $("#search").text("do_not_disturb_on");//transition:width 2s;7
+            $(".search_input").css("transition", "1s")
+            $(".search_input").css("background-image", " linear-gradient(to right,#e66465, #9198e5)").css("width", "30%")
+
+        })
         $("#search").mouseleave(function () {
             $("#search").text("search");
+            $(".search_input").css("background-color", "white").css("width", "100%")
         });
     })
 </script>

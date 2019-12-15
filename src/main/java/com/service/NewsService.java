@@ -34,4 +34,10 @@ public interface NewsService {
      * @return
      */
     public void delNews(int id);
+    /**
+     * 基于name查找新闻
+     * @param name
+     * @return
+     */
+    public List<News> findNews(String name);
 }

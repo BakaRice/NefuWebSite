@@ -22,8 +22,8 @@
     <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!--css-->
-    <link rel="stylesheet" href="resources/css/index.css">
-    <link rel="stylesheet" href="resources/css/news.css">
+    <link rel="stylesheet" href="../../resources/css/index.css">
+    <link rel="stylesheet" href="../../resources/css/news.css">
     <!--  icon引入  -->
     <link href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css" rel="stylesheet">
 
@@ -32,6 +32,9 @@
 
 <div class="single_news_top">
     <img src="/resources/static/img/university.jpg">
+    <div class="single_news_top_name">
+        <h1>通知公告</h1>
+    </div>
 </div>
 <div class="single_news_content_out">
     <div class="single_news_content_in">
@@ -48,12 +51,12 @@
 
 <!--侧边栏-->
 <div class="nav_side">
-    <div style="display: flex" class="nav_side_logo">
+    <div  style="display: flex" class="nav_side_logo">
         <img src="resources/static/img/logo_school.png">
     </div>
     <ul class="utility">
         <li class="search">
-            <a href="test.html">
+            <a href="/search">
                 <div>
                     <div>
                         <i class="material-icons">search</i>
@@ -63,7 +66,7 @@
             </a>
         </li>
         <li class="map">
-            <a href="test.html">
+            <a href="http://map.nefu.edu.cn/">
                 <div>
                     <div>
                         <i class="material-icons">map</i>
@@ -73,7 +76,7 @@
             </a>
         </li>
         <li class="question">
-            <a href="test.html">
+            <a href="http://tel.nefu.edu.cn/">
                 <div>
                     <div>
                         <i class="material-icons">question_answer</i>
@@ -99,7 +102,63 @@
                     <p><span class="content_side_span">Introduce</span></p>
                 </div>
             </a>
-        </li>
+            <div class="second_content_side">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <strong>专业简介</strong>
+                                <p><span class="second_content_side_span">laboratory</span></p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <strong>方向介绍</strong>
+                                <p><span class="second_content_side_span">laboratory</span></p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li><!--专业介绍-->
+        <li>
+            <a href="../../teacher/instructor.html">
+                <div>
+                    <strong>教师队伍</strong>
+                    <p><span class="content_side_span">Demigods</span></p>
+                </div>
+                <div class="second_content_side">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>教授</strong>
+                                    <p><span class="second_content_side_span">professor</span></p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>副教授</strong>
+                                    <p><span class="second_content_side_span">Associate professor</span></p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>讲师</strong>
+                                    <p><span class="second_content_side_span">Instructor</span></p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </a>
+        </li><!--教师队伍-->
         <li>
             <a href="test.html">
                 <div>
@@ -107,9 +166,9 @@
                     <p><span class="content_side_span">News</span></p>
                 </div>
             </a>
-        </li>
+        </li><!--新闻-->
         <li>
-            <a href="test.html">
+            <a href="/listnew">
                 <div>
                     <strong>实验室</strong>
                     <p><span class="content_side_span">laboratory</span></p>
@@ -152,16 +211,7 @@
                 </ul>
             </div>
 
-        </li>
-        <li>
-            <a href="test.html">
-                <div>
-                    <strong>教师队伍</strong>
-                    <p><span class="content_side_span">Demigods</span></p>
-                </div>
-
-            </a>
-        </li>
+        </li><!--实验室-->
         <li>
             <a href="test.html">
                 <div>
@@ -173,5 +223,15 @@
     </ul>
 </div>
 
+<footer>
+
+    <div>
+        <img class="footer_img" src="resources/static/img/footer-bg-2019.png" height="357" width="1920"/>
+        <div class="footer_rights">
+            <p>Copyright © Nefu.Software Tan All rights reserved.</p>
+        </div>
+
+    </div>
+</footer>
 </body>
 </html>
