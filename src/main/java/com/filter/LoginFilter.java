@@ -23,7 +23,7 @@ public class LoginFilter extends HttpFilter {
                     chain.doFilter(req, res);
                     return;
                 } else {
-                    res.sendRedirect("/admin");
+                    res.sendRedirect("/BakaRiceHome-1.0-SNAPSHOT");
                     return;
                 }
             }
